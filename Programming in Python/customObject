@@ -1,0 +1,17 @@
+class MyFirstClass():
+    index = "Author-Book"
+
+    def __init__ (self):
+         print("Who wrote this?")
+    
+    def hand_list(self, philosopher, book):
+        print(MyFirstClass.index)
+        print(philosopher + " wrote the book: " + book)
+        
+
+# Call function handlist()
+my_class = MyFirstClass()
+my_class.hand_list("Plato", "The Republic")
+my_class.hand_list("Aristotle", "Nicomachean Ethics")
+my_class.hand_list("Tsun Tzu", "The Art of War")
+my_class.hand_list("Marcus Aurelius", "Meditations") 
